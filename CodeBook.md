@@ -85,7 +85,6 @@ bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of e
 
 angle(): Angle between to vectors.
 
-
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
 gravityMean
@@ -105,13 +104,22 @@ with the raw data set
 IN the tidy data set: 
 
 subject: the subject id 
+  ranges between 1 to 30 for the 30 subjects in the experiment
 
-activity: The activity
+activity: The activity that the subject was doing
+  Recoded from the original data set: 
+  1 .Walking
+  2 .Walking Upstairs
+  3 .Walking Downstairs
+  4 .Stting
+  5 .Standing
+  6 .Laying
+  
 
 The average of each of the following variables is calculated across each subject and activity:
 
 tBodyAcc-mean()-X
-
+  The Body Acce
 tBodyAcc-mean()-Y
 
 tBodyAcc-mean()-Z
