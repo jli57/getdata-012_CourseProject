@@ -103,10 +103,9 @@ with the raw data set
 
 IN the tidy data set: 
 
-subject: the subject id 
-  ranges between 1 to 30 for the 30 subjects in the experiment
+subject: the subject id is a integer rangeing between 1 to 30 representing the 30 subjects in the experiment
 
-activity: The activity that the subject was doing
+activity: The activity is a character type field that the subject was doing
   Recoded from the original data set: 
   1 .Walking
   2 .Walking Upstairs
@@ -116,10 +115,12 @@ activity: The activity that the subject was doing
   6 .Laying
   
 
-The average of each of the following variables is calculated across each subject and activity:
+The average of each of the following variables is calculated across each subject and activity. 
+
+The following fields are number data types between [-1, 1]
 
 tBodyAcc-mean()-X
-  The Body Acce
+  
 tBodyAcc-mean()-Y
 
 tBodyAcc-mean()-Z
