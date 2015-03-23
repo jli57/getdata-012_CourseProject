@@ -75,7 +75,7 @@ merge <- merge[ , c(1:2, features$feat_ID+2)]
 ####################################################################################
 
 ## recode activities with descriptive activity names
-merge$activity_ID <- mapvalues(merge$activity_ID, from = c("1","2","3","4","5","6"), to = c("Walking", "Walking Upstiars", "Walking Downstairs", "Sitting", "Standing", "Laying") )
+merge$activity_ID <- mapvalues(merge$activity_ID, from = c("1","2","3","4","5","6"), to = c("Walking", "Walking Upstairs", "Walking Downstairs", "Sitting", "Standing", "Laying") )
 
 ####################################################################################
 ## (4) Appropriately labels the data set with descriptive variable names
